@@ -1,4 +1,4 @@
-package Cclase16D;
+package EjercicioD;
 
 public class Personas {
 
@@ -46,6 +46,13 @@ public class Personas {
 		this.estadocivil = estadocivil;
 	}
 
+	public void imprimir() {
+		System.out.println("Nombre			: " + nombre);
+		System.out.println("Apellido		: " + apellido);
+		System.out.println("Rut			: " + rut); 
+		System.out.println("Estado Civil		: " + estadocivil);
+	}
+	
 	@Override
 	public String toString() {
 		return "Personas [nombre=" + nombre + ", apellido=" + apellido + ", estadocivil=" + estadocivil + "]";
